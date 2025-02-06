@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>JS+CSS实现几个DIV层上下移动交换位置的效果</title>
+<style type="text/css">
+/*<![CDATA[*/
+ul{
+  width:400px
+}
+li{
+  border:1px solid gray;
+  list-style:none
+}
+.txt{
+  padding:4px;
+  background-color:#ffffff
+}
+/*]]>*/
+</style>
+<script language="javascript" type="text/javascript">
+//<![CDATA
+window.onload=function(){
+  ggGroup(document.getElementById('test'),5);
+};
+function ggGroup(ele,margin){
+  margin=margin||0;
+  var bgcolors='#b3d580,#99c9b1,#b4a1d8,#f7c480,#d5d588,#eea2bb'.split(',');
+  var txtUp='上移↑&nbsp;',txtDown='下移↓';
+  var panels=children(ele);
+  for(var i=0,h=0;i<panels.length;i++){
+    var p=panels[i];
+    p.style.position='absolute';
+    p.style.width='100%';
+    var b=document.createElement('div');
+    with(b.style){
+      fontSize='12px';
+      padding='4px';
+      backgroundColor=bgcolors[i%bgcolors.length];
+      textAlign='right';
+    }
+    b.innerHTML='<span>'+txtUp+'</span><span>'+txtDown+'</span>';
+    b.firstChild.onclick=moveup;
+    b.firstChild.style.cursor='pointer';
+    b.lastChild.onclick=movedown;
+    b.lastChild.style.cursor='pointer';
+    p.insertBefore(b,p.firstChild);
+    p.style.top=h+'px';
+    p.index=i;
+    h+=p.offsetHeight+margin;
+  }
+  ele.style.height=h+'px';
+  ele.style.position='relative';  
+  check(0,i-1);  
+  function check(){
+    for(var i=0;i<arguments.length;i++){
+      var x=arguments[i];
+      var c=panels[x].firstChild.childNodes;
+      c[0].style.visibility=x==0?'hidden':'visible';
+      c[1].style.visibility=x==panels.length-1?'hidden':'visible';
+      panels[x].index=x;
+    }
+  }
+  function moveup(evt){
+    var p=evt?evt.target:event.srcElement;
+    p=p.parentNode.parentNode;
+    swap(p,panels[p.index-1]);
+  }
+  function movedown(evt){
+    var p=evt?evt.target:event.srcElement;
+    p=p.parentNode.parentNode;
+    swap(p,panels[p.index+1]);
+  }
+  function swap(p1,p2){
+    var N=10;
+    var INTV=200;
+    var arr1,arr2;
+    var t1=parseInt(p1.style.top),t2=parseInt(p2.style.top);
+    var h1=p1.offsetHeight+margin,h2=p2.offsetHeight+margin;
+    arr1=makeArr(t1,t1<t2?h2:-h2);
+    arr2=makeArr(t2,t1<t2?-h1:h1);
+    for(var i=0;i<N;i++)(function(){
+      var j=i;
+      setTimeout(function(){
+        p1.style.top=arr1[j]+"px";
+        p2.style.top=arr2[j]+"px";
+        if(j==N-1){
+          panels[p1.index]=p2;
+          panels[p2.index]=p1;
+          check(p1.index,p2.index);
+        }
+      },(j+1)*INTV/N);
+    })();
+    function makeArr(f,x){
+      var ret=[];
+      for(var i=0;i<N;i++)
+        ret[i]=Math.round(f+i*x/(N-1));
+      return ret;
+    }
+  }
+  function children(e){
+    var ret=[];
+    for(var i=0,c=e.childNodes;i<c.length;i++)
+      if(c[i].nodeType==1)
+        ret.push(c[i]);
+    return ret;
+  }
+}
+//]]>
+</script>
+</head>
+<body>
+<ul id="test">
+  <li>    <div class="txt"><h2>欢迎光临：<a href='http://www.sitejs.cn/' target='_blank'><u>JS代码</u></a>站<br>www.CsrCode.cn</h2></div></li>
+  <li>    <div class="txt">
+      <img src="/images/banner.gif" width="430px" height="100px" />
+    </div></li>
+  <li>
+    <div class="txt">
+      <i>Welcome to XinQing Waystation</i>
+    </div></li>
+  <li>
+    <div class="txt">
+      本站专为收集网络上好的<a href='http://www.sitejs.cn/list-4.html' target='_blank'><u>网页特效</u></a>而建！
+    </div></li>
+</ul>
+</body>
+</html>
+
+<br><br><hr> 收集于互联网，只为兴趣与学习交流，不作商业用途。</font></p>
