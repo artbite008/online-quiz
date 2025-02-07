@@ -8,7 +8,7 @@
     <groupId>com.ksis</groupId>
     <artifactId>online_quiz</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <!-- 项目使用的 Java 版本 -->
     <properties>
@@ -437,6 +437,15 @@
     <!-- 构建插件 -->
     <build>
         <plugins>
+            <!-- 对于 Java Web 项目 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
             <!-- Maven 编译插件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

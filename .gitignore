@@ -1,0 +1,17 @@
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 编译生成的文件和目录
+target/
+bin/
+
+# IDE 相关文件和目录
+.idea/
+*.iml
+*.ipr
+*.iws
+out/

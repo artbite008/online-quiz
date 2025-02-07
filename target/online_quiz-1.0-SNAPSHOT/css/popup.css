@@ -1,0 +1,1058 @@
+@charset "utf-8";
+
+#append_parent {
+    font: 12px/1.5 Arial, "宋体";
+    color: #444;
+}
+
+#append_parent ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc {
+    margin: 0;
+    padding: 0;
+}
+
+#append_parent em, cite {
+    font-style: normal;
+}
+
+#append_parent .bw0 {
+    border: none !important;
+}
+
+#append_parent .pt {
+    overflow-y: auto;
+}
+
+#append_parent div.pt {
+    height: 100px;
+    line-height: 100px;
+}
+
+#append_parent .ps, select {
+    padding: 2px 2px 2px 1px;
+}
+
+#append_parent .ie8 .ps, .ie8 select {
+    padding: 2px;
+}
+
+#append_parent .pts {
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#append_parent .cmt .pts {
+    width: 60%;
+}
+
+#append_parent button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+#append_parent2 {
+    font: 12px/1.5 Arial, "宋体";
+    color: #444;
+}
+
+#append_parent2 ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc {
+    margin: 0;
+    padding: 0;
+}
+
+#append_parent2 em, cite {
+    font-style: normal;
+}
+
+#append_parent2 .bw0 {
+    border: none !important;
+}
+
+#append_parent2 .pt {
+    overflow-y: auto;
+}
+
+#append_parent2 div.pt {
+    height: 100px;
+    line-height: 100px;
+}
+
+#append_parent2 .ps, select {
+    padding: 2px 2px 2px 1px;
+}
+
+#append_parent2 .ie8 .ps, .ie8 select {
+    padding: 2px;
+}
+
+#append_parent2 .pts {
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#append_parent2 .cmt .pts {
+    width: 60%;
+}
+
+#append_parent2 button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+#append_parent .pn {
+    vertical-align: middle;
+    overflow: hidden;
+    margin-right: 3px;
+    padding: 0;
+    height: 23px;
+    border: 1px solid #999;
+    background: #E5E5E5 url(../images/pn.png)repeat-x 0 0;
+    cursor: pointer;
+    -moz-box-shadow: 0 1px 0 #E5E5E5;
+    -webkit-box-shadow: 0 1px 0 #E5E5E5;
+    box-shadow: 0 1px 0 #E5E5E5;
+}
+
+#append_parent2 .pn {
+    vertical-align: middle;
+    overflow: hidden;
+    margin-right: 3px;
+    padding: 0;
+    height: 23px;
+    border: 1px solid #999;
+    background: #E5E5E5 url(../images/pn.png)repeat-x 0 0;
+    cursor: pointer;
+    -moz-box-shadow: 0 1px 0 #E5E5E5;
+    -webkit-box-shadow: 0 1px 0 #E5E5E5;
+    box-shadow: 0 1px 0 #E5E5E5;
+}
+
+#append_parent .pn:active {
+    background-position: 0-23px;
+}
+
+#append_parent2 .pn:active {
+    background-position: 0-23px;
+}
+
+#append_parent .ie6 .pn {
+    overflow-x: visible;
+    width: 0;
+}
+
+#append_parent2 .ie6 .pn {
+    overflow-x: visible;
+    width: 0;
+}
+
+#append_parent .pn em, .pn span, .pn strong {
+    padding: 0 10px;
+    line-height: 21px;
+}
+
+#append_parent2 .pn em, .pn span, .pn strong {
+    padding: 0 10px;
+    line-height: 21px;
+}
+
+#append_parent .pn em, .pn strong {
+    font-weight: 700;
+}
+
+#append_parent2 .pn em, .pn strong {
+    font-weight: 700;
+}
+
+#append_parent .ie7 .pn em, .ie7 .pn span, .ie7 .pn strong {
+    padding: 0 5px;
+    line-height: 18px;
+}
+
+#append_parent2 .ie7 .pn em, .ie7 .pn span, .ie7 .pn strong {
+    padding: 0 5px;
+    line-height: 18px;
+}
+
+#append_parent a.pn {
+    height: 21px;
+    line-height: 21px;
+    color: #444 !important;
+}
+
+#append_parent2 a.pn {
+    height: 21px;
+    line-height: 21px;
+    color: #444 !important;
+}
+
+#append_parent a.pn:hover {
+    text-decoration: none;
+}
+
+#append_parent2 a.pn:hover {
+    text-decoration: none;
+}
+
+#append_parent .ie6 a.pn {
+    width: auto;
+}
+
+#append_parent .ie6 a.pn em, .ie6 a.pn span, .ie6 a.pn strong {
+    display: block;
+}
+
+#append_parent .ie7 a.pn em, .ie7 a.pn span, .ie7 a.pn strong {
+    line-height: 21px;
+}
+
+#append_parent .pnc, a.pnc {
+    border-color: #235994;
+    background-color: #06C;
+    background-position: 0-48px;
+    color: #FFF !important;
+    margin: 0 10px
+}
+
+#append_parent2 .pnc, a.pnc {
+    border-color: #235994;
+    background-color: #06C;
+    background-position: 0-48px;
+    color: #FFF !important;
+    margin: 0 10px
+}
+
+#append_parent .t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r {
+    overflow: hidden;
+    background: #000;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+#append_parent .t_l, .t_r, .b_l, .b_r {
+    width: 8px;
+    height: 8px;
+}
+
+#append_parent .t_c, .b_c {
+    height: 8px;
+}
+
+#append_parent .m_l, .m_r {
+    width: 8px;
+}
+
+#append_parent .t_l {
+    -moz-border-radius: 8px 0px 0px 0px;
+    -webkit-border-radius: 8px 0px 0px 0px;
+    border-radius: 8px 0px 0px 0px;
+}
+
+#append_parent .t_r {
+    -moz-border-radius: 0px 8px 0 0;
+    -webkit-border-radius: 0px 8px 0px 0px;
+    border-radius: 0px 8px 0px 0px;
+}
+
+#append_parent .b_l {
+    -moz-border-radius: 0 0 0 8px;
+    -webkit-border-radius: 0px 0px 0px 8px;
+    border-radius: 0px 0px 0 8px;
+}
+
+#append_parent .b_r {
+    -moz-border-radius: 0 0 8px 0;
+    -webkit-border-radius: 0px 0px 8px 0px;
+    border-radius: 0px 0px 8px 0px;
+}
+
+#append_parent .flb {
+    padding: 10px 10px 8px;
+    height: 20px;
+    line-height: 20px;
+}
+
+#append_parent2 .flb {
+    padding: 10px 10px 8px;
+    height: 20px;
+    line-height: 20px;
+}
+
+#append_parent .flb em {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #369;
+}
+
+#append_parent .flb2 em {
+    float: left;
+    margin-left: 300px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #369;
+}
+
+#append_parent .flb font {
+    font-size: 12px;
+    font-weight: normal
+}
+
+#append_parent .flb em a {
+    text-decoration: none;
+}
+
+#append_parent .flb .onerror, .flb .onright {
+    padding-left: 20px;
+    height: auto;
+    line-height: 140%;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#append_parent .flb span {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+    font-weight: normal
+}
+
+#append_parent .flb2 span {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+    font-weight: normal
+}
+
+#append_parent .flb span a {
+    color: #336699;
+    text-decoration: underline;
+}
+
+#append_parent .flb2 span a {
+    color: #336699;
+    text-decoration: underline;
+}
+
+#append_parent .flb .reglink {
+    margin-right: 12px;
+}
+
+#append_parent .flbc {
+    float: left;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(../images/cls.gif)no-repeat 0 0;
+    cursor: pointer;
+}
+
+#append_parent .flbc:hover {
+    background-position: 0-20px;
+}
+
+#append_parent .rfm {
+    margin: 0 auto;
+    width: 760px;
+    border-bottom: 1px dotted #CDCDCD;
+}
+
+#append_parent .rfm a {
+    color: #369;
+}
+
+#append_parent .rfm th, .rfm td {
+    padding: 10px 2px;
+    vertical-align: top;
+    line-height: 24px;
+}
+
+#append_parent .rfm th {
+    padding-right: 10px;
+    width: 10em;
+    text-align: right;
+}
+
+#append_parent .rfm .px {
+    width: 220px;
+}
+
+#append_parent .fwin .rfm, .nfl .f_c .rfm {
+    width: 500px;
+}
+
+#append_parent .fsb {
+    clear: both;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+#append_parent2 .fsb {
+    clear: both;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+#append_parent .fsb .z {
+    padding-top: 5px;
+}
+
+#append_parent .m_c .fsb {
+    background: #F2F2F2;
+    border-top: 1px solid #CCC;
+}
+
+#append_parent2 .m_c .fsb {
+    background: #F2F2F2;
+    border-top: 1px solid #CCC;
+}
+
+#append_parent .txt {
+    height: 22px;
+    width: 175px;
+    border: solid 1px #999999;
+    line-height: 22px;
+}
+
+#append_parent .lblerror {
+    padding-left: 10px;
+    color: #ff0000;
+}
+
+#append_parent_reg {
+    font: 12px/1.5 Arial, "宋体";
+    color: #444;
+}
+
+#append_parent_reg ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc {
+    margin: 0;
+    padding: 0;
+}
+
+#append_parent_reg em, cite {
+    font-style: normal;
+}
+
+#append_parent_reg .bw0 {
+    border: none !important;
+}
+
+#append_parent_reg .pt {
+    overflow-y: auto;
+}
+
+#append_parent_reg div.pt {
+    height: 100px;
+    line-height: 100px;
+}
+
+#append_parent_reg .ps, select {
+    padding: 2px 2px 2px 1px;
+}
+
+#append_parent_reg .ie8 .ps, .ie8 select {
+    padding: 2px;
+}
+
+#append_parent_reg .pts {
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#append_parent_reg .cmt .pts {
+    width: 60%;
+}
+
+#append_parent_reg button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+#append_parent_reg .pn {
+    vertical-align: middle;
+    overflow: hidden;
+    margin-right: 3px;
+    padding: 0;
+    height: 23px;
+    border: 1px solid #999;
+    background: #E5E5E5 url(../images/pn.png)repeat-x 0 0;
+    cursor: pointer;
+    -moz-box-shadow: 0 1px 0 #E5E5E5;
+    -webkit-box-shadow: 0 1px 0 #E5E5E5;
+    box-shadow: 0 1px 0 #E5E5E5;
+}
+(../images/pn.png) repeat-x 0 0;cursor:pointer;-moz-box-shadow:0 1px 0 #E5E5E5;-webkit-box-shadow:0 1px 0 #E5E5E5;box-shadow:0 1px 0 #E5E5E5;}
+#append_parent_reg .pn:active {
+    background-position: 0-23px;
+}
+
+#append_parent_reg .ie6 .pn {
+    overflow-x: visible;
+    width: 0;
+}
+
+#append_parent_reg .pn em, .pn span, .pn strong {
+    padding: 0 10px;
+    line-height: 21px;
+}
+
+#append_parent_reg .pn em, .pn strong {
+    font-weight: 700;
+}
+
+#append_parent_reg .ie7 .pn em, .ie7 .pn span, .ie7 .pn strong {
+    padding: 0 5px;
+    line-height: 18px;
+}
+
+#append_parent_reg a.pn {
+    height: 21px;
+    line-height: 21px;
+    color: #444 !important;
+}
+
+#append_parent_reg a.pn:hover {
+    text-decoration: none;
+}
+
+#append_parent_reg .ie6 a.pn {
+    width: auto;
+}
+
+#append_parent_reg .ie6 a.pn em, .ie6 a.pn span, .ie6 a.pn strong {
+    display: block;
+}
+
+#append_parent_reg .ie7 a.pn em, .ie7 a.pn span, .ie7 a.pn strong {
+    line-height: 21px;
+}
+
+#append_parent_reg .pnc, a.pnc {
+    border-color: #235994;
+    background-color: #06C;
+    background-position: 0-48px;
+    color: #FFF !important;
+    margin: 0 10px
+}
+
+#append_parent_reg .t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r {
+    overflow: hidden;
+    background: #000;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+#append_parent_reg .t_l, .t_r, .b_l, .b_r {
+    width: 8px;
+    height: 8px;
+}
+
+#append_parent_reg .t_c, .b_c {
+    height: 8px;
+}
+
+#append_parent_reg .m_l, .m_r {
+    width: 8px;
+}
+
+#append_parent_reg .t_l {
+    -moz-border-radius: 8px 0px 0px 0px;
+    -webkit-border-radius: 8px 0px 0px 0px;
+    border-radius: 8px 0px 0px 0px;
+}
+
+#append_parent_reg .t_r {
+    -moz-border-radius: 0px 8px 0 0;
+    -webkit-border-radius: 0px 8px 0px 0px;
+    border-radius: 0px 8px 0px 0px;
+}
+
+#append_parent_reg .b_l {
+    -moz-border-radius: 0 0 0 8px;
+    -webkit-border-radius: 0px 0px 0px 8px;
+    border-radius: 0px 0px 0 8px;
+}
+
+#append_parent_reg .b_r {
+    -moz-border-radius: 0 0 8px 0;
+    -webkit-border-radius: 0px 0px 8px 0px;
+    border-radius: 0px 0px 8px 0px;
+}
+
+#append_parent_reg .flb {
+    padding: 10px 10px 8px;
+    height: 20px;
+    line-height: 20px;
+}
+
+#append_parent_reg .flb em {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #369;
+}
+
+#append_parent_reg .flb2 em {
+    float: left;
+    margin-left: 300px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #369;
+}
+
+#append_parent_reg .flb font {
+    font-size: 12px;
+    font-weight: normal
+}
+
+#append_parent_reg .flb em a {
+    text-decoration: none;
+}
+
+#append_parent_reg .flb .onerror, .flb .onright {
+    padding-left: 20px;
+    height: auto;
+    line-height: 140%;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#append_parent_reg .flb span {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+    font-weight: normal
+}
+
+#append_parent_reg .flb2 span {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+    font-weight: normal
+}
+
+#append_parent_reg .flb span a {
+    color: #336699;
+    text-decoration: underline;
+}
+
+#append_parent_reg .flb2 span a {
+    color: #336699;
+    text-decoration: underline;
+}
+
+#append_parent_reg .flb .reglink {
+    margin-right: 12px;
+}
+
+#append_parent_reg .flbc {
+    float: left;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(../images/cls.gif)no-repeat 0 0;
+    cursor: pointer;
+}
+
+#append_parent_reg .flbc:hover {
+    background-position: 0-20px;
+}
+
+#append_parent_reg .rfm {
+    margin: 0 auto;
+    width: 760px;
+    border-bottom: 1px dotted #CDCDCD;
+}
+
+#append_parent_reg .rfm a {
+    color: #369;
+}
+
+#append_parent_reg .rfm th, .rfm td {
+    padding: 10px 2px;
+    vertical-align: top;
+    line-height: 24px;
+}
+
+#append_parent_reg .rfm th {
+    padding-right: 10px;
+    width: 10em;
+    text-align: right;
+}
+
+#append_parent_reg .rfm .px {
+    width: 220px;
+}
+
+#append_parent_reg .fwin .rfm, .nfl .f_c .rfm {
+    width: 500px;
+}
+
+#append_parent_reg .fsb {
+    clear: both;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+#append_parent_reg .fsb .z {
+    padding-top: 5px;
+}
+
+#append_parent_reg .m_c .fsb {
+    background: #F2F2F2;
+    border-top: 1px solid #CCC;
+}
+
+#append_parent_reg .txt {
+    height: 22px;
+    width: 175px;
+    border: solid 1px #999999;
+    line-height: 22px;
+}
+
+#append_parent_reg .lblerror {
+    padding-left: 10px;
+    color: #ff0000;
+}
+
+#append_parent .trfm {
+    margin: 0 auto;
+    width: 760px;
+    border-bottom: 1px dotted #CDCDCD;
+}
+
+#append_parent .trfm a {
+    color: #369;
+}
+
+#append_parent .trfm th, .rfm td {
+    padding: 0px 2px;
+    vertical-align: top;
+    line-height: 24px;
+}
+
+#append_parent .trfm th {
+    padding-right: 10px;
+    width: 10em;
+    text-align: right;
+}
+
+#append_parent .trfm .px {
+    width: 220px;
+}
+
+#append_parent .trfm .std {
+    height: 18px;
+    padding-top: 0px;
+}
+
+#login_info {
+    font: 12px/1.5 Arial, "宋体";
+    color: #444;
+}
+
+#login_info ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc {
+    margin: 0;
+    padding: 0;
+}
+
+#login_info em, cite {
+    font-style: normal;
+}
+
+#login_info .bw0 {
+    border: none !important;
+}
+
+#login_info .pt {
+    overflow-y: auto;
+}
+
+#login_info div.pt {
+    height: 100px;
+    line-height: 100px;
+}
+
+#login_info .ps, select {
+    padding: 2px 2px 2px 1px;
+}
+
+#login_info .ie8 .ps, .ie8 select {
+    padding: 2px;
+}
+
+#login_info .pts {
+    vertical-align: top;
+    overflow: hidden;
+}
+
+#login_info .cmt .pts {
+    width: 60%;
+}
+
+#login_info button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+#login_info .pn {
+    vertical-align: middle;
+    overflow: hidden;
+    margin-right: 3px;
+    padding: 0;
+    height: 23px;
+    border: 1px solid #999;
+    background: #E5E5E5 url(../images/pn.png)repeat-x 0 0;
+    cursor: pointer;
+    -moz-box-shadow: 0 1px 0 #E5E5E5;
+    -webkit-box-shadow: 0 1px 0 #E5E5E5;
+    box-shadow: 0 1px 0 #E5E5E5;
+}
+
+#login_info .pn:active {
+    background-position: 0-23px;
+}
+
+#login_info .ie6 .pn {
+    overflow-x: visible;
+    width: 0;
+}
+
+#login_info .pn em, .pn span, .pn strong {
+    padding: 0 10px;
+    line-height: 21px;
+}
+
+#login_info .pn em, .pn strong {
+    font-weight: 700;
+}
+
+#login_info .ie7 .pn em, .ie7 .pn span, .ie7 .pn strong {
+    padding: 0 5px;
+    line-height: 18px;
+}
+
+#login_info a.pn {
+    height: 21px;
+    line-height: 21px;
+    color: #444 !important;
+}
+
+#login_info a.pn:hover {
+    text-decoration: none;
+}
+
+#login_info .ie6 a.pn {
+    width: auto;
+}
+
+#login_info .ie6 a.pn em, .ie6 a.pn span, .ie6 a.pn strong {
+    display: block;
+}
+
+#login_info .ie7 a.pn em, .ie7 a.pn span, .ie7 a.pn strong {
+    line-height: 21px;
+}
+
+#login_info .pnc, a.pnc {
+    border-color: #235994;
+    background-color: #06C;
+    background-position: 0-48px;
+    color: #FFF !important;
+    margin: 0 10px
+}
+
+#login_info .t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r {
+    overflow: hidden;
+    background: #000;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+#login_info .t_l, .t_r, .b_l, .b_r {
+    width: 8px;
+    height: 8px;
+}
+
+#login_info .t_c, .b_c {
+    height: 8px;
+}
+
+#login_info .m_l, .m_r {
+    width: 8px;
+}
+
+#login_info .t_l {
+    -moz-border-radius: 8px 0 0 0;
+    -webkit-border-radius: 8px 0 0 0;
+    border-radius: 8px 0 0 0;
+}
+
+#login_info .t_r {
+    -moz-border-radius: 0 8px 0 0;
+    -webkit-border-radius: 0 8px 0 0;
+    border-radius: 0 8px 0 0;
+}
+
+#login_info .b_l {
+    -moz-border-radius: 0 0 0 8px;
+    -webkit-border-radius: 0 0 0 8px;
+    border-radius: 0 0 0 8px;
+}
+
+#login_info .b_r {
+    -moz-border-radius: 0 0 8px 0;
+    -webkit-border-radius: 0 0 8px 0;
+    border-radius: 0 0 8px 0;
+}
+
+#login_info .flb {
+    padding: 10px 10px 8px;
+    height: 20px;
+    line-height: 20px;
+}
+
+#login_info .flb em {
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #369;
+}
+
+#login_info .flb font {
+    font-size: 12px;
+    font-weight: normal
+}
+
+#login_info .flb em a {
+    text-decoration: none;
+}
+
+#login_info .flb .onerror, .flb .onright {
+    padding-left: 20px;
+    height: auto;
+    line-height: 140%;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#login_info .flb span {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+    font-weight: normal
+}
+
+#login_info .flb span a {
+    color: #336699;
+    text-decoration: underline;
+}
+
+#login_info .flb .reglink {
+    margin-right: 12px;
+}
+
+#login_info .flbc {
+    float: left;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url(/images/show/cls.gif)no-repeat 0 0;
+    cursor: pointer;
+}
+
+#login_info .flbc:hover {
+    background-position: 0-20px;
+}
+
+#login_info .rfm {
+    margin: 0 auto;
+    width: 760px;
+    border-bottom: 1px dotted #CDCDCD;
+}
+
+#login_info .rfm a {
+    color: #369;
+}
+
+#login_info .rfm th, .rfm td {
+    padding: 10px 2px;
+    vertical-align: top;
+    line-height: 24px;
+}
+
+#login_info .rfm th {
+    padding-right: 10px;
+    width: 10em;
+    text-align: right;
+}
+
+#login_info .rfm .px {
+    width: 220px;
+}
+
+#login_info .fwin .rfm, .nfl .f_c .rfm {
+    width: 500px;
+}
+
+#login_info .fsb {
+    clear: both;
+    margin-top: 8px;
+    padding: 10px;
+}
+
+#login_info .fsb .z {
+    padding-top: 5px;
+}
+
+#login_info .m_c .fsb {
+    background: #F2F2F2;
+    border-top: 1px solid #CCC;
+}
+
+#login_info .txt {
+    height: 22px;
+    width: 175px;
+    border: solid 1px #999999;
+    line-height: 22px;
+}
+
+#login_info .lblerror {
+    padding-left: 10px;
+    color: #ff0000;
+}
+
+#login_info .trfm {
+    margin: 0 auto;
+    width: 760px;
+    border-bottom: 1px dotted #CDCDCD;
+}
+
+#login_info .trfm a {
+    color: #369;
+}
+
+#login_info .trfm th, .rfm td {
+    padding: 0px 2px;
+    vertical-align: top;
+    line-height: 24px;
+}
+
+#login_info .trfm th {
+    padding-right: 10px;
+    width: 10em;
+    text-align: right;
+}
+
+#login_info .trfm .px {
+    width: 220px;
+}
+
+#login_info .trfm .std {
+    height: 18px;
+    padding-top: 0px;
+}
