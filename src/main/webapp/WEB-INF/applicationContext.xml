@@ -15,15 +15,15 @@
 	<bean class="com.ksis.core.util.spring.SpringContextHolder" />	
 
 	<bean id="dataSource" class="org.logicalcobwebs.proxool.ProxoolDataSource">
-		<property name="driver" value="com.mysql.jdbc.Driver" />
-		<property name="driverUrl" value="jdbc:mysql://localhost:3306/KSISDB?useUnicode=true&amp;characterEncoding=UTF-8" />
+		<property name="driver" value="com.mysql.cj.jdbc.Driver" />
+		<property name="driverUrl" value="jdbc:mysql://localhost:3306/KSISDB?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Shanghai" />
 		<property name="user"><value>root</value></property>
-		<property name="password"><value>0077</value></property>
+		<property name="password"><value>12345678</value></property>
 		<property name="alias"><value>root</value></property>    
 
 		<!-- 自动检查连接是否断的测试sql语句 -->
 		<property name="houseKeepingTestSql">
-			<value>select sysdate from dual</value>
+			<value>SELECT VERSION()</value>
 		</property>
 		
 		<!-- 每次使用前测试连接是否可用 -->
