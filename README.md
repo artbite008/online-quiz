@@ -1,2 +1,2 @@
-# online_quiz
-online quiz platform
+# Online Quiz Platform
+An online examination system supporting multiple question types.
